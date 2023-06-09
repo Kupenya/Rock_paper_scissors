@@ -43,7 +43,7 @@ function playGame(playerChoice) {
     document.getElementById("paper").disabled = true;
     document.getElementById("scissors").disabled = true;
 
-    if (playerScore > 0) {
+    if (playerScore > computerScore) {
       celebrate();
     }
   }
