@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Rock Paper Scissors</title>
+    <link rel="stylesheet" type="text/css" href="style.css">
+</head>
+<body>
+    <h1>Welcome to Rock Paper Scissors</h1>
+  <div class="game-container">
+    <button id="rock" onclick="playGame('rock')">Rock</button>
+    <button id="paper" onclick="playGame('paper')">Paper</button>
+    <button id="scissors" onclick="playGame('scissors')">Scissors</button>
+  </div>
+  <div id="result"></div>
+  <div id="score">Player: 0 | Computer: 0</div>
+  <div id="play-again">
+    <button onclick="playAgain('y')">Play Again</button>
+    <button onclick="playAgain('n')">Quit</button>
+  </div>
+  <div id="confetti-container"></div>
+  
+    <script src="index.js"></script>
+</body>
+</html>

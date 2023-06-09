@@ -1,0 +1,110 @@
+body {
+    font-family: Arial, sans-serif;
+    text-align: center;
+    background-color: #f1f1f1;
+  }
+  
+  h1 {
+    margin-top: 40px;
+    color: #055c5c;
+  }
+  
+  .game-container {
+    margin-top: 40px;
+  }
+  
+  button {
+    font-size: 16px;
+    padding: 10px 20px;
+    margin: 10px;
+    color: rgb(216, 78, 124);
+    border-radius: 15px;
+    
+  }
+  button:hover {
+    background-color: #055c5c;
+  }
+  
+  #result {
+    margin-top: 40px;
+    font-size: 24px;
+  }
+
+  #confetti-container {
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    pointer-events: none;
+    z-index: 9999;
+  }
+  
+  @keyframes confetti-fall {
+    0% {
+      transform: translateY(-100%);
+    }
+    100% {
+      transform: translateY(100vh);
+    }
+  }
+  
+  .confetti {
+    position: absolute;
+    width: 10px;
+    height: 10px;
+    background-color: blue;
+    animation: confetti-fall 3s ease-out infinite;
+    pointer-events: none;
+  }
+  
+  .confetti:nth-child(1) {
+    left: 10%;
+    animation-delay: 0.1s;
+  }
+  
+  .confetti:nth-child(2) {
+    left: 20%;
+    animation-delay: 0.2s;
+  }
+  
+  .confetti:nth-child(3) {
+    left: 30%;
+    animation-delay: 0.3s;
+  }
+  
+  .confetti:nth-child(4) {
+    left: 40%;
+    animation-delay: 0.4s;
+  }
+  
+  .confetti:nth-child(5) {
+    left: 50%;
+    animation-delay: 0.5s;
+  }
+  
+  .confetti:nth-child(6) {
+    left: 60%;
+    animation-delay: 0.6s;
+  }
+  
+  .confetti:nth-child(7) {
+    left: 70%;
+    animation-delay: 0.7s;
+  }
+  
+  .confetti:nth-child(8) {
+    left: 80%;
+    animation-delay: 0.8s;
+  }
+  
+  .confetti:nth-child(9) {
+    left: 90%;
+    animation-delay: 0.9s;
+  }
+  
+  .confetti:nth-child(10) {
+    left: 100%;
+    animation-delay: 1s;
+  }
+  
